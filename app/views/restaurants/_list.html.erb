@@ -1,6 +1,6 @@
 <div id="restaurants">
   <% restaurants.each do |restaurant| %>
-    <%= render restaurant %>
+    <%= render 'restaurant', restaurant: restaurant %>
     <p>
       <%= link_to "Show this restaurant", restaurant %>
     </p>
